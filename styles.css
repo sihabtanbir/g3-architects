@@ -22,6 +22,7 @@ a{
     background: #FF900E;
     padding: 10px;
     margin: 0px;
+    cursor: pointer;
 }
 /* header css  */
 header{
@@ -76,4 +77,27 @@ padding-bottom: 20px;
 .banner img{
     width: 100%;
 height: 600px;
+}
+
+
+
+/* media quary  */
+
+/* mobile device  */
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablet devices  */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
